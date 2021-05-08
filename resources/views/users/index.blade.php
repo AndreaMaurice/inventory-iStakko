@@ -10,7 +10,7 @@
                             <h4 class="card-title">{{ __('Users') }}</h4>
                         </div>
                         <div class="col-4 text-right">
-                            <a href="{{ route('users.create') }}" class="btn btn-sm btn-primary">{{ __('Add user') }}</a>
+                            <a href="{{ route('users.create') }}" class="btn btn-sm">{{ __('Add user') }}</a>
                         </div>
                     </div>
                 </div>

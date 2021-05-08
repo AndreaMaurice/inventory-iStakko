@@ -11,7 +11,7 @@
                             <h4 class="card-title">Bank Accounts / Payment Methods</h4>
                         </div>
                         <div class="col-4 text-right">
-                            <a href="{{ route('methods.create') }}" class="btn btn-sm btn-primary">New Method</a>
+                            <a href="{{ route('methods.create') }}" class="btn btn-sm">New Method</a>
                         </div>
                     </div>
                 </div>

@@ -27,7 +27,7 @@
                             </div>
                     </div>
                     <div class="card-footer">
-                        <button type="submit" class="btn btn-fill btn-primary">Save</button>
+                        <button type="submit" class="btn btn-fill">Save</button>
                     </div>
                 </form>
             </div>
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                     <div class="card-footer">
-                        <button type="submit" class="btn btn-fill btn-primary">Change Password</button>
+                        <button type="submit" class="btn btn-fill">Change Password</button>
                     </div>
                 </form>
             </div>
@@ -70,10 +70,10 @@
                 <div class="card-body">
                     <p class="card-text">
                         <div class="author">
-                            <div class="block block-one"></div>
+                            {{-- <div class="block block-one"></div>
                             <div class="block block-two"></div>
                             <div class="block block-three"></div>
-                            <div class="block block-four"></div>
+                            <div class="block block-four"></div> --}}
                             <a href="#">
                                 <img class="avatar" src="{{ asset('assets/img/emilyz.jpg') }}" alt="">
                                 <h5 class="title">{{ auth()->user()->name }}</h5>

@@ -1,5 +1,8 @@
 <div class="sidebar">
     <div class="sidebar-wrapper">
+        <div class="logo mt-4">
+            <img src="{{ asset('assets') }}/img/logo-light.png" alt="" width="300px">
+        </div>
         <ul class="nav">
             <li @if ($pageSlug == 'dashboard') class="active " @endif>
                 <a href="{{ route('home') }}">

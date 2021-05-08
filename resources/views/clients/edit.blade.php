@@ -11,7 +11,7 @@
                                 <h3 class="mb-0">{{ __('Client Management') }}</h3>
                             </div>
                             <div class="col-4 text-right">
-                                <a href="{{ route('clients.index') }}" class="btn btn-sm btn-primary">{{ __('Back to List') }}</a>
+                                <a href="{{ route('clients.index') }}" class="btn btn-sm">{{ __('Back to List') }}</a>
                             </div>
                         </div>
                     </div>

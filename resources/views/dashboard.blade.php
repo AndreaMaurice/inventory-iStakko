@@ -12,21 +12,21 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="btn-group btn-group-toggle float-right" data-toggle="buttons">
-                            <label class="btn btn-sm btn-primary btn-simple active" id="0">
+                            <label class="btn btn-sm btn-simple active" id="0">
                                 <input type="radio" name="options" checked>
                                 <span class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Products</span>
                                 <span class="d-block d-sm-none">
                                     <i class="tim-icons icon-single-02"></i>
                                 </span>
                             </label>
-                            <label class="btn btn-sm btn-primary btn-simple" id="1">
+                            <label class="btn btn-sm btn-simple" id="1">
                                 <input type="radio" class="d-none d-sm-none" name="options">
                                 <span class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Purchases</span>
                                 <span class="d-block d-sm-none">
                                     <i class="tim-icons icon-gift-2"></i>
                                 </span>
                             </label>
-                            <label class="btn btn-sm btn-primary btn-simple" id="2">
+                            <label class="btn btn-sm btn-simple" id="2">
                                 <input type="radio" class="d-none" name="options">
                                 <span class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Clients</span>
                                 <span class="d-block d-sm-none">
@@ -97,7 +97,7 @@
                             <h4 class="card-title">Pending Sales</h4>
                         </div>
                         <div class="col-4 text-right">
-                            <a href="{{ route('sales.create') }}" class="btn btn-sm btn-primary">New Sale</a>
+                            <a href="{{ route('sales.create') }}" class="btn btn-sm">New Sale</a>
                         </div>
                     </div>
                 </div>
@@ -155,7 +155,7 @@
                             <h4 class="card-title">Latest Transactions</h4>
                         </div>
                         <div class="col-4 text-right">
-                            <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#transactionModal">
+                            <button type="button" class="btn btn-sm" data-toggle="modal" data-target="#transactionModal">
                                 New Transaction
                             </button>
                         </div>
@@ -232,11 +232,11 @@
                 </div>
                 <div class="modal-body">
                     <div class="d-flex justify-content-between">
-                        <a href="{{ route('transactions.create', ['type' => 'payment']) }}" class="btn btn-sm btn-primary">Payment</a>
-                        <a href="{{ route('transactions.create', ['type' => 'income']) }}" class="btn btn-sm btn-primary">Income</a>
-                        <a href="{{ route('transactions.create', ['type' => 'expense']) }}" class="btn btn-sm btn-primary">Expense</a>
-                        <a href="{{ route('sales.create') }}" class="btn btn-sm btn-primary">Sale</a>
-                        <a href="{{ route('transfer.create') }}" class="btn btn-sm btn-primary">Transfer</a>
+                        <a href="{{ route('transactions.create', ['type' => 'payment']) }}" class="btn btn-sm">Payment</a>
+                        <a href="{{ route('transactions.create', ['type' => 'income']) }}" class="btn btn-sm">Income</a>
+                        <a href="{{ route('transactions.create', ['type' => 'expense']) }}" class="btn btn-sm">Expense</a>
+                        <a href="{{ route('sales.create') }}" class="btn btn-sm">Sale</a>
+                        <a href="{{ route('transfer.create') }}" class="btn btn-sm">Transfer</a>
                     </div>
                 </div>
             </div>

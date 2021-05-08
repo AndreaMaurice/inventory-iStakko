@@ -11,7 +11,7 @@
                                 <h3 class="mb-0">New Transaction</h3>
                             </div>
                             <div class="col-4 text-right">
-                                <a href="{{ route('sales.show', $sale) }}" class="btn btn-sm btn-primary">Volver a la venta</a>
+                                <a href="{{ route('sales.show', $sale) }}" class="btn btn-sm">Volver a la venta</a>
                             </div>
                         </div>
                     </div>

@@ -17,12 +17,12 @@
                                     <form action="{{ route('sales.destroy', $sale) }}" method="post" class="d-inline">
                                         @csrf
                                         @method('delete')
-                                        <button type="submit" class="btn btn-sm btn-primary">
+                                        <button type="submit" class="btn btn-sm">
                                             Delete Sale
                                         </button>
                                     </form>
                                 @else
-                                    <button type="button" class="btn btn-sm btn-primary" onclick="confirm('ATTENTION: The transactions of this sale do not seem to coincide with the cost of the products, do you want to finalize it? Your records cannot be modified from now on.') ? window.location.replace('{{ route('sales.finalize', $sale) }}') : ''">
+                                    <button type="button" class="btn btn-sm" onclick="confirm('ATTENTION: The transactions of this sale do not seem to coincide with the cost of the products, do you want to finalize it? Your records cannot be modified from now on.') ? window.location.replace('{{ route('sales.finalize', $sale) }}') : ''">
                                         Finalize Sale
                                     </button>
                                 @endif
@@ -70,7 +70,7 @@
                         </div>
                         @if (!$sale->finalized_at)
                             <div class="col-4 text-right">
-                                <a href="{{ route('sales.product.add', ['sale' => $sale->id]) }}" class="btn btn-sm btn-primary">Add</a>
+                                <a href="{{ route('sales.product.add', ['sale' => $sale->id]) }}" class="btn btn-sm">Add</a>
                             </div>
                         @endif
                     </div>

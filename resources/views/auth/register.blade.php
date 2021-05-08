@@ -1,51 +1,37 @@
 @extends('layouts.app', ['class' => 'register-page', 'page' => 'Laravel Inventory', 'contentClass' => 'register-page', 'section' => 'auth'])
 
 @section('content')
-    <div class="row">
-        <div class="col-md-7 ml-auto mr-auto">
-            <div class="card card-register card-white">
-                <div class="card-header">
-                    <img class="card-img" src="{{ asset('assets') }}/img/card-primary.png" alt="Card image">
-                    <h4 class="card-title">Register</h4>
-                </div>
+<div class="col-lg-5 col-md-6 ml-auto mr-auto">
                 <form class="form" method="post" action="{{ route('register') }}">
                     @csrf
-
+                    <div class="card card-login card-white">
+                        <div class="card-header mx-auto">
+                            <a href="/login">
+                            <img src="{{ asset('assets') }}/img/logo.png" alt="" width="300px">
+                        </a>
+                        </div>
+                        <div class="mx-auto">
+                            <p>REGISTER</p>
+                        </div>
                     <div class="card-body">
-                        <div class="input-group{{ $errors->has('name') ? ' has-danger' : '' }}">
-                            <div class="input-group-prepend">
-                                <div class="input-group-text">
-                                    <i class="tim-icons icon-single-02"></i>
-                                </div>
-                            </div>
-                            <input type="text" name="name" class="form-control {{ $errors->has('name') ? ' is-invalid' : '' }}" placeholder="Name" value="{{ old('name') }}">
+                        <div class="{{ $errors->has('name') ? ' has-danger' : '' }} mb-2">
+                            <p>Name:</p>
+                            <input type="text" name="name" class="form-control {{ $errors->has('name') ? ' is-invalid' : '' }}" value="{{ old('name') }}">
                             @include('alerts.feedback', ['field' => 'name'])
                         </div>
-                        <div class="input-group{{ $errors->has('email') ? ' has-danger' : '' }}">
-                            <div class="input-group-prepend">
-                                <div class="input-group-text">
-                                    <i class="tim-icons icon-email-85"></i>
-                                </div>
-                            </div>
-                            <input type="email" name="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" placeholder="Email" value="{{ old('email') }}">
+                        <div class="{{ $errors->has('email') ? ' has-danger' : '' }} mb-2">
+                            <p>Email:</p>
+                            <input type="email" name="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" value="{{ old('email') }}">
                             @include('alerts.feedback', ['field' => 'email'])
                         </div>
-                        <div class="input-group{{ $errors->has('password') ? ' has-danger' : '' }}">
-                            <div class="input-group-prepend">
-                                <div class="input-group-text">
-                                    <i class="tim-icons icon-lock-circle"></i>
-                                </div>
-                            </div>
-                            <input type="password" name="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" placeholder="Password">
+                        <div class="{{ $errors->has('password') ? ' has-danger' : '' }} mb-2">
+                            <p>Password:</p>
+                            <input type="password" name="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" >
                             @include('alerts.feedback', ['field' => 'password'])
                         </div>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <div class="input-group-text">
-                                    <i class="tim-icons icon-lock-circle"></i>
-                                </div>
-                            </div>
-                            <input type="password" name="password_confirmation" class="form-control" placeholder="Repeat Password">
+                        <div class="mb-2">
+                            <p>Confirm Password:</p>
+                            <input type="password" name="password_confirmation" class="form-control">
                         </div>
                         <div class="form-check text-left {{ $errors->has('password') ? ' has-danger' : '' }}">
                             <label class="form-check-label">
@@ -56,8 +42,8 @@
                             </label>
                         </div>
                     </div>
-                    <div class="card-footer">
-                        <button type="submit" class="btn btn-primary btn-round btn-lg">Sign up</button>
+                    <div class="card-footer mx-auto">
+                        <button type="submit" class="btn-green btn-md">Sign up</button>
                     </div>
                 </form>
             </div>

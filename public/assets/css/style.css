@@ -1,0 +1,36 @@
+.btn-green {
+    background-color: #00FACD;
+    display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 11px 40px;
+  font-size: 0.875rem;
+  line-height: 1.35em;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.green{
+    color: #36a18e;
+}
+
+.btn-green{
+    background-color: #00FACD;
+    color: #212121;
+}
+
+.login-page, .register-page{
+    background-color: #212121 !important;
+}
+
+.sidebar-wrapper {
+    background-color: #212121;
+}
+
+nav{
+    padding-left: 250px !important;
+}

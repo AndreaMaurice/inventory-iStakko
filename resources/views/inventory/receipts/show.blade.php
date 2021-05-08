@@ -18,12 +18,12 @@
                                     <form action="{{ route('receipts.destroy', $receipt) }}" method="post" class="d-inline">
                                         @csrf
                                         @method('delete')
-                                        <button type="submit" class="btn btn-sm btn-primary">
+                                        <button type="submit" class="btn btn-sm">
                                             Delete Receipt
                                         </button>
                                     </form>
                                 @else
-                                    <button type="button" class="btn btn-sm btn-primary" onclick="confirm('ATTENTION: At the end of this receipt you will not be able to load more products in it.') ? window.location.replace('{{ route('receipts.finalize', $receipt) }}') : ''">
+                                    <button type="button" class="btn btn-sm" onclick="confirm('ATTENTION: At the end of this receipt you will not be able to load more products in it.') ? window.location.replace('{{ route('receipts.finalize', $receipt) }}') : ''">
                                         Finalize Receipt
                                     </button>
                                 @endif
@@ -79,7 +79,7 @@
                         </div>
                         @if (!$receipt->finalized_at)
                             <div class="col-4 text-right">
-                                <a href="{{ route('receipts.product.add', ['receipt' => $receipt]) }}" class="btn btn-sm btn-primary">Add</a>
+                                <a href="{{ route('receipts.product.add', ['receipt' => $receipt]) }}" class="btn btn-sm">Add</a>
                             </div>
                         @endif
                     </div>

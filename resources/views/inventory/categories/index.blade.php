@@ -10,7 +10,7 @@
                             <h4 class="card-title">Categories</h4>
                         </div>
                         <div class="col-4 text-right">
-                            <a href="{{ route('categories.create') }}" class="btn btn-sm btn-primary">New Category</a>
+                            <a href="{{ route('categories.create') }}" class="btn btn-sm">New Category</a>
                         </div>
                     </div>
                 </div>

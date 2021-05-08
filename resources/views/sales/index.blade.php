@@ -11,7 +11,7 @@
                             <h4 class="card-title">Sales</h4>
                         </div>
                         <div class="col-4 text-right">
-                            <a href="{{ route('sales.create') }}" class="btn btn-sm btn-primary">Register Sale</a>
+                            <a href="{{ route('sales.create') }}" class="btn btn-sm">Register Sale</a>
                         </div>
                     </div>
                 </div>

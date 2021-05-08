@@ -10,7 +10,7 @@
                             <h4 class="card-title">Products</h4>
                         </div>
                         <div class="col-4 text-right">
-                            <a href="{{ route('products.create') }}" class="btn btn-sm btn-primary">New product</a>
+                            <a href="{{ route('products.create') }}" class="btn btn-sm">New product</a>
                         </div>
                     </div>
                 </div>

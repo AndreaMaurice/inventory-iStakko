@@ -10,7 +10,7 @@
                             <h4 class="card-title">Register Transfer</h4>
                         </div>
                         <div class="col-4 text-right">
-                            <a href="{{ route('transfer.index') }}" class="btn btn-sm btn-primary">
+                            <a href="{{ route('transfer.index') }}" class="btn btn-sm">
                                 Back to List
                             </a>
                         </div>

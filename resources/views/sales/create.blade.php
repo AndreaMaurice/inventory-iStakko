@@ -12,7 +12,7 @@
                                 <h3 class="mb-0">Register Sale</h3>
                             </div>
                             <div class="col-4 text-right">
-                                <a href="{{ route('sales.index') }}" class="btn btn-sm btn-primary">Back to list</a>
+                                <a href="{{ route('sales.index') }}" class="btn btn-sm">Back to list</a>
                             </div>
                         </div>
                     </div>

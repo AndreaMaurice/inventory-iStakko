@@ -15,10 +15,12 @@
 
         <!-- Icons -->
         <link href="{{ asset('assets') }}/css/nucleo-icons.css" rel="stylesheet" />
+        <link rel="shortcut icon" href="{{ asset('assets/img/logo-x.png') }}" type="image/x-icon">
         
         <!-- CSS -->
         <link href="{{ asset('assets') }}/css/white-dashboard.css?v=1.0.0" rel="stylesheet" />
         <link href="{{ asset('assets') }}/css/theme.css" rel="stylesheet" />
+        <link rel="stylesheet" href="{{ asset('assets') }}/css/style.css">
     </head>
     <body class="white-content {{ $class ?? '' }}">
         @auth()
@@ -37,7 +39,7 @@
                 @csrf
             </form>
         @else
-            @include('layouts.navbars.navbar')
+            {{-- @include('layouts.navbars.navbar') --}}
             <div class="wrapper wrapper-full-page">
                 <div class="full-page {{ $contentClass ?? '' }}">
                     <div class="content">

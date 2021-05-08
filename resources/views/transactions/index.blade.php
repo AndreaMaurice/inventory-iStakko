@@ -10,7 +10,7 @@
                             <h4 class="card-title">Transactions</h4>
                         </div>
                         <div class="col-4 text-right">
-                            <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#transactionModal">
+                            <button type="button" class="btn btn-sm" data-toggle="modal" data-target="#transactionModal">
                                 New Transaction
                             </button>
                         </div>
@@ -112,11 +112,11 @@
                 </div>
                 <div class="modal-body">
                     <div class="d-flex justify-content-between">
-                        <a href="{{ route('transactions.create', ['type' => 'payment']) }}" class="btn btn-sm btn-primary">Payment</a>
-                        <a href="{{ route('transactions.create', ['type' => 'income']) }}" class="btn btn-sm btn-primary">Income</a>
-                        <a href="{{ route('transactions.create', ['type' => 'expense']) }}" class="btn btn-sm btn-primary">Expense</a>
-                        <a href="{{ route('sales.create') }}" class="btn btn-sm btn-primary">Sale</a>
-                        <a href="{{ route('transfer.create') }}" class="btn btn-sm btn-primary">Transfer</a>
+                        <a href="{{ route('transactions.create', ['type' => 'payment']) }}" class="btn btn-sm">Payment</a>
+                        <a href="{{ route('transactions.create', ['type' => 'income']) }}" class="btn btn-sm">Income</a>
+                        <a href="{{ route('transactions.create', ['type' => 'expense']) }}" class="btn btn-sm">Expense</a>
+                        <a href="{{ route('sales.create') }}" class="btn btn-sm">Sale</a>
+                        <a href="{{ route('transfer.create') }}" class="btn btn-sm">Transfer</a>
                     </div>
                 </div>
             </div>

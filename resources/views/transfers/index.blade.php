@@ -11,7 +11,7 @@
                             <h4 class="card-title">Transfers</h4>
                         </div>
                         <div class="col-4 text-right">
-                            <a href="{{ route('transfer.create') }}" class="btn btn-sm btn-primary">
+                            <a href="{{ route('transfer.create') }}" class="btn btn-sm">
                                 Register Transfer
                             </a>
                         </div>

@@ -11,7 +11,7 @@
                                 <h3 class="mb-0">New Transaction</h3>
                             </div>
                             <div class="col-4 text-right">
-                                <a href="{{ route('clients.show', $client) }}" class="btn btn-sm btn-primary">Back to Client</a>
+                                <a href="{{ route('clients.show', $client) }}" class="btn btn-sm">Back to Client</a>
                             </div>
                         </div>
                     </div>

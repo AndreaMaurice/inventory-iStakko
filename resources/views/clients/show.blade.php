@@ -57,7 +57,7 @@
                             <h4 class="card-title">Latest Transactions</h4>
                         </div>
                         <div class="col-4 text-right">
-                            <a href="{{ route('clients.transactions.add', $client) }}" class="btn btn-sm btn-primary">New Transaction</a>
+                            <a href="{{ route('clients.transactions.add', $client) }}" class="btn btn-sm">New Transaction</a>
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@
                                 @csrf
                                 <input type="hidden" name="user_id" value="{{ Auth::id() }}">
                                 <input type="hidden" name="client_id" value="{{ $client->id }}">
-                                <button type="submit" class="btn btn-sm btn-primary">New Purchase</button>
+                                <button type="submit" class="btn btn-sm">New Purchase</button>
                             </form>
                         </div>
                     </div>

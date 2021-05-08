@@ -10,7 +10,7 @@
                         <h4 class="card-title">Receipts</h4>
                     </div>
                     <div class="col-4 text-right">
-                        <a href="{{ route('receipts.create') }}" class="btn btn-sm btn-primary">New Receipt</a>
+                        <a href="{{ route('receipts.create') }}" class="btn btn-sm">New Receipt</a>
                     </div>
                 </div>
             </div>

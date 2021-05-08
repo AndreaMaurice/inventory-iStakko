@@ -10,7 +10,7 @@
                             <h4 class="card-title">Payments</h4>
                         </div>
                         <div class="col-4 text-right">
-                            <a href="{{ route('transactions.create', ['type' => 'payment']) }}" class="btn btn-sm btn-primary">New Payment</a>
+                            <a href="{{ route('transactions.create', ['type' => 'payment']) }}" class="btn btn-sm">New Payment</a>
                         </div>
                     </div>
                 </div>

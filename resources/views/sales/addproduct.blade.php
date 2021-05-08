@@ -10,7 +10,7 @@
                                 <h3 class="mb-0">Add Product</h3>
                             </div>
                             <div class="col-4 text-right">
-                                <a href="{{ route('sales.show', [$sale->id]) }}" class="btn btn-sm btn-primary">Back to List</a>
+                                <a href="{{ route('sales.show', [$sale->id]) }}" class="btn btn-sm">Back to List</a>
                             </div>
                         </div>
                     </div>

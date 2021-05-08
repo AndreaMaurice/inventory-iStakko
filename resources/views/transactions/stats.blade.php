@@ -10,7 +10,7 @@
                             <h4 class="card-title">Transaction Statistics</h4>
                         </div>
                         <div class="col-4 text-right">
-                            <a href="{{ route('transactions.index') }}" class="btn btn-sm btn-primary">
+                            <a href="{{ route('transactions.index') }}" class="btn btn-sm">
                                 View Transactions
                             </a>
                         </div>
@@ -57,7 +57,7 @@
                             <h4 class="card-title">Pending Balances</h4>
                         </div>
                         <div class="col-4 text-right">
-                            <a href="{{ route('clients.index') }}" class="btn btn-sm btn-primary">View Clients</a>
+                            <a href="{{ route('clients.index') }}" class="btn btn-sm">View Clients</a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                             <h4 class="card-title">Statistics by Methods</h4>
                         </div>
                         <div class="col-4 text-right">
-                            <a href="{{ route('methods.index') }}" class="btn btn-sm btn-primary">View Methods</a>
+                            <a href="{{ route('methods.index') }}" class="btn btn-sm">View Methods</a>
                         </div>
                     </div>
                 </div>
@@ -154,7 +154,7 @@
                         <h4 class="card-title">Sales Statistics</h4>
                     </div>
                     <div class="col-4 text-right">
-                        <a href="{{ route('sales.index') }}" class="btn btn-sm btn-primary">View Sales</a>
+                        <a href="{{ route('sales.index') }}" class="btn btn-sm">View Sales</a>
                     </div>
                 </div>
             </div>

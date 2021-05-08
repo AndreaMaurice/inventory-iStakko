@@ -10385,17 +10385,18 @@ a.text-darker:focus {
   margin: 4px 1px;
   border-radius: 0.4285rem;
   cursor: pointer;
-  background: #344675;
+  background-color: #00FACD;
+  /* background: #344675;
   background-image: -webkit-linear-gradient(to bottom left, #344675, #263148, #344675);
   background-image: -o-linear-gradient(to bottom left, #344675, #263148, #344675);
   background-image: -moz-linear-gradient(to bottom left, #344675, #263148, #344675);
-  background-image: linear-gradient(to bottom left, #344675, #263148, #344675);
+  background-image: linear-gradient(to bottom left, #344675, #263148, #344675); */
   background-size: 210% 210%;
   background-position: top right;
-  background-color: #344675;
+  /* background-color: #344675; */
   transition: all 0.15s ease;
   box-shadow: none;
-  color: #ffffff;
+  color: #212121;
 }
 
 .btn.animation-on-hover:hover,
@@ -10406,8 +10407,6 @@ a.text-darker:focus {
 
 .btn:hover,
 .btn:focus,
-.btn:active,
-.btn.active,
 .btn:active:focus,
 .btn:active:hover,
 .btn.active:focus,
@@ -10420,11 +10419,11 @@ a.text-darker:focus {
 .navbar .navbar-nav>a.btn:active:hover,
 .navbar .navbar-nav>a.btn.active:focus,
 .navbar .navbar-nav>a.btn.active:hover {
-  background-color: #263148 !important;
-  background-image: linear-gradient(to bottom left, #344675, #263148, #344675) !important;
+   background-color: #2b9e8a !important;
+  /*background-image: linear-gradient(to bottom left, #344675, #263148, #344675) !important;
   background-image: -webkit-linear-gradient(to bottom left, #344675, #263148, #344675) !important;
   background-image: -o-linear-gradient(to bottom left, #344675, #263148, #344675) !important;
-  background-image: -moz-linear-gradient(to bottom left, #344675, #263148, #344675) !important;
+  background-image: -moz-linear-gradient(to bottom left, #344675, #263148, #344675) !important; */
   color: #ffffff;
   box-shadow: none;
 }
@@ -10497,9 +10496,8 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 
 .btn.btn-simple,
 .navbar .navbar-nav>a.btn.btn-simple {
-  color: #344675;
-  border-color: #344675;
-  background: transparent;
+  color: #212121;
+  border-color: #00FACD;
 }
 
 .btn.btn-simple:hover,
@@ -10510,16 +10508,16 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .navbar .navbar-nav>a.btn.btn-simple:focus,
 .navbar .navbar-nav>a.btn.btn-simple:active,
 .navbar .navbar-nav>a.btn.btn-simple:not(:disabled):not(.disabled):active {
-  color: #344675;
-  border-color: #344675;
-  background-color: transparent !important;
+  color: #212121;
+  border-color: #00facd;
   background-image: none !important;
   box-shadow: none;
 }
 
 .btn.btn-simple.active,
 .navbar .navbar-nav>a.btn.btn-simple.active {
-  border-color: #344675 !important;
+  border-color: #00FACD !important;
+  background-color: #00FACD;
 }
 
 .btn.btn-simple.active:hover,
@@ -10531,12 +10529,12 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .navbar .navbar-nav>a.btn.btn-simple.active:active,
 .navbar .navbar-nav>a.btn.btn-simple.active:not(:disabled):not(.disabled):active {
   color: #ffffff;
-  border-color: #344675;
-  background-image: linear-gradient(to bottom left, #344675, #263148, #344675) !important;
+  border-color: #00FACD;
+  /* background-image: linear-gradient(to bottom left, #344675, #263148, #344675) !important;
   background-image: -webkit-linear-gradient(to bottom left, #344675, #263148, #344675) !important;
   background-image: -o-linear-gradient(to bottom left, #344675, #263148, #344675) !important;
-  background-image: -moz-linear-gradient(to bottom left, #344675, #263148, #344675) !important;
-  background-color: #263148 !important;
+  background-image: -moz-linear-gradient(to bottom left, #344675, #263148, #344675) !important; */
+  background-color: #00FACD !important;
   box-shadow: none;
 }
 
@@ -13479,7 +13477,6 @@ img {
 }
 
 .navbar .navbar-brand {
-  position: fixed;
   padding-top: .3125rem;
   padding-bottom: .3125rem;
   color: #ffffff;
@@ -14850,7 +14847,7 @@ table.tablesorter thead tr .headerSortDown {
   background: -moz-linear-gradient(0deg, #1d032c 0%, #4e65e1 100%);
   background: linear-gradient(0deg, #1d032c 0%, #4e65e1 100%);
   height: calc(100vh - 90px);
-  width: 230px;
+  width: 270px;
   position: fixed;
   top: 0;
   left: 0;
@@ -14859,8 +14856,8 @@ table.tablesorter thead tr .headerSortDown {
   background-position: center center;
   display: block;
   box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.6);
-  margin-top: 80px;
-  margin-left: 20px;
+  /* margin-top: 80px;
+  margin-left: 20px; */
   border-radius: 5px;
   transition: 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
 }
@@ -14999,14 +14996,14 @@ table.tablesorter thead tr .headerSortDown {
 .sidebar .nav li>a,
 .off-canvas-sidebar .nav li>a {
   margin: 10px 15px 0;
-  border-radius: 30px;
+  border-radius: 10px;
   color: #ffffff;
   display: block;
   text-decoration: none;
   position: relative;
   text-transform: uppercase;
   cursor: pointer;
-  font-size: 0.62475rem;
+  font-size: 0.7rem;
   padding: 10px 8px;
   line-height: 1.625rem;
 }
@@ -15037,25 +15034,26 @@ table.tablesorter thead tr .headerSortDown {
 .sidebar .nav li.active>a:not([data-toggle="collapse"]),
 .off-canvas-sidebar .nav li.active>a:not([data-toggle="collapse"]) {
   background: transparent;
+  background-color: #00FACD;
 }
 
 .sidebar .nav li.active>a:not([data-toggle="collapse"]) i,
 .sidebar .nav li.active>a:not([data-toggle="collapse"]) p,
 .off-canvas-sidebar .nav li.active>a:not([data-toggle="collapse"]) i,
 .off-canvas-sidebar .nav li.active>a:not([data-toggle="collapse"]) p {
-  color: white;
+  color: #212121;
 }
 
 .sidebar .nav li.active>a:not([data-toggle="collapse"]):before,
 .off-canvas-sidebar .nav li.active>a:not([data-toggle="collapse"]):before {
   content: " ";
-  position: absolute;
+  /* position: absolute;
   height: 6px;
   width: 6px;
   top: 22px;
   left: -4px;
   background: #ffffff;
-  border-radius: 50%;
+  border-radius: 50%; */
 }
 
 .sidebar .nav li.active>a[data-toggle="collapse"],
@@ -15312,7 +15310,6 @@ table.tablesorter thead tr .headerSortDown {
   float: right;
   width: 100%;
   min-height: 100vh;
-  border-top: 2px solid #4554c2;
   background: linear-gradient(#1e1e2f, #1e1e24);
   -webkit-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   -moz-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
@@ -15334,7 +15331,7 @@ table.tablesorter thead tr .headerSortDown {
 }
 
 .main-panel>.content {
-  padding: 78px 30px 30px 280px;
+  padding: 78px 30px 30px 300px;
   min-height: calc(100vh - 70px);
 }
 

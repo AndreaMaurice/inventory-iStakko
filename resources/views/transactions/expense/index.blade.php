@@ -10,7 +10,7 @@
                             <h4 class="card-title">Expenses</h4>
                         </div>
                         <div class="col-4 text-right">
-                            <a href="{{ route('transactions.create', ['type' => 'expense']) }}" class="btn btn-sm btn-primary">Register Expense</a>
+                            <a href="{{ route('transactions.create', ['type' => 'expense']) }}" class="btn btn-sm">Register Expense</a>
                         </div>
                     </div>
                 </div>

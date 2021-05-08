@@ -12,7 +12,7 @@
                                 <h3 class="mb-0">New Receipt</h3>
                             </div>
                             <div class="col-4 text-right">
-                                <a href="{{ route('receipts.index') }}" class="btn btn-sm btn-primary">Back to List</a>
+                                <a href="{{ route('receipts.index') }}" class="btn btn-sm">Back to List</a>
                             </div>
                         </div>
                     </div>
